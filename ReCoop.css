@@ -1,0 +1,208 @@
+
+body {
+    background-color: #dbeaa3;
+}
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: rgb(126, 124, 124); /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+    border-radius: 10px;
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 25%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 10px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 25px; /* Increased font size */
+    font-family: Rockwell;
+    text-decoration: none;
+}
+
+.icon-bar a:hover {
+    background-color: rgb(236, 207, 78); /* Add a hover color */
+}
+
+.active {
+    background-color: #e4941d; /* Add an active/current color */
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}
+
+h1{
+    font-family: Rockwell;
+    color: #4b3a30;
+    text-align: center;
+}
+
+h2{
+    font-family: Rockwell;
+    color: #4b3a30;
+    text-align: center;
+}
+
+h3{
+    font-family: Rockwell;
+    color: #4b3a30;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+p{
+    font-family: Rockwell;
+    color: #4b3a30;
+
+}
+
+form{
+   text-align: center;
+    font-family: Rockwell;
+
+}
+
+.cropped{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #e4941d;
+}
+
+.croppedhp{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    border: 3px solid #e4941d;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 40px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+.container {
+    /*border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-right: 10px;
+    padding-left: 10px;
+
+     */
+    position: relative;
+    text-align:center;
+    border-style: solid;
+    border-width: 2px;
+    display: block;
+
+}
+
+
+
+#bx-wrapper  {
+    margin:0 auto;
+    height: 200px;
+
+}
+
+.bx-wrapper img{
+    width: 100%;
+    height:600px;
+}
+
+fieldset{
+    border:none;
+}
+
+input {
+    padding: 12px 20px;
+    width: 50%;
+    margin: 5px 0;
+    box-sizing: border-box;
+
+}
+
+.infoform {
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: beige;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+
+button {
+    padding:6px 10px;
+
+}
+
+#families img {
+    margin: 10px;
+    width: 250px;
+
+}
+
+.families {
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    background-color: beige;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+}
+
+.background{
+    background-color: beige;
+    border-radius: 10px;
+}
+
+
+
+
+
